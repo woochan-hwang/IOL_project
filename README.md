@@ -23,7 +23,7 @@ conda activate iol-project
 ### Data
 The patient data is excluded from the git. The train.py will load IOL_clean_data.xlsx if it is located in the same folder.
 
-### Preprocessing
+### Preprocessing
 All preprocessing is defined in the dataloader script and runs in train.py when create_dataset() method is called.
 
 Each sample in the dataset output will be a dictionary that includes:
