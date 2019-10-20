@@ -1,0 +1,20 @@
+name: iol-project
+channels:
+  - conda-forge
+  - defaults
+  - ioam
+  - soumith
+dependencies:
+  - python=3.6
+  - pytorch
+  - torchvision
+  - scipy
+  - numpy==1.14.1
+  - pandas
+  - pip:
+    - pillow
+    - sklearn
+    - SoundFile
+    - sox
+    - xlrd
+    - torchaudio
